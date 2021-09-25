@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Lawrence Grayson Crosby
+        Assignment: Change Order Request from the Fleet Admiral
+        9/25/2021
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Control</title>
+
+    <script src="code.js">//Script referencing code.js file</script>
+</head>
+<body>
+    <!-- Inserting the image from an images folder and aligning it to top of page -->
+    <img src="./Images/UATspaceLogo.jpg" align="top">
+    <!--Creating basic text to display to user info about program-->
+    <h1>Mission Control</h1>
+    <p>This application will count down until blastoff!</p>
+    <h2>Countdown</h2>
+    <!-- Button that calls function StartTheCountdown() to start the countdown -->
+    <button type="button" onclick="StartTheCountdown()">
+        Start Countdown
+    </button>
+    <!--Paragraph tag with ID that will be changed based on the StartTheCountdown function in code.js-->
+    <p id="CountdownDisplay" style.color="green">Click the button to start the countdown!</p>
+</body>
+</html>
