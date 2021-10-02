@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(90deg, white, aqua);
+}
+
+h4{
+    font-style: italic;
+}
+
+form{
+    font-weight: bold;
+}
