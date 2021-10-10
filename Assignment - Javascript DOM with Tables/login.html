@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Lawrence Grayson Crosby
+        Assignment: Mission Control Operator Login
+        9/25/2021
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAT Space Program Login</title>
+
+    <script src="codeLogin.js">//Linking to javascript file codeLogin.js</script>
+    <link href="loginStyle.css" rel="stylesheet" type="text/css"/> <!--Linking to css file loginStyle.css-->
+</head>
+<body>
+    <!--Welcome the user-->
+    <h1>
+        Welcome to Mission Control!
+    </h1>
+
+    <!--Ask for login info. Update with login status information after form is submitted-->
+    <h4 id="loginStatus" class="loginID">Please enter your login credentials below.</h4>
+    <br>
+
+    <!--Supply form for user to input information and submit-->
+    <form id="credSubmit" onsubmit="return false">
+        First Name:   &emsp;&emsp;   <input type="text" id="firstName" /> <br>
+        Last Name:    &emsp;&emsp;   <input type="text" id="lastName" /> <br>
+        Badge Number: &nbsp;         <input type="number" id="badgeNumber" /> <br>
+        <input type="submit" onclick="checkCreds();" />
+    </form>
+</body>
+</html>
